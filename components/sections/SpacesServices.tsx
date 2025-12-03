@@ -26,19 +26,19 @@ const SpacesServices: React.FC = () => {
       title: "Executive Suite",
       capacity: "1–4 người",
       desc: "Văn phòng riêng tư với tầm nhìn panorama và nội thất cao cấp, tối ưu cho lãnh đạo cấp cao. Không gian yên tĩnh – chuẩn mực – thể hiện đẳng cấp doanh nghiệp.",
-      img: "/image/anh1.jpg"
+      img: "/public/image/anh1.jpg"
     },
     {
       title: "Open Creative Hub",
       capacity: "10–20 người",
       desc: "Không gian mở linh hoạt, thúc đẩy sáng tạo và tăng tính kết nối giữa các thành viên. Phù hợp cho đội ngũ đang phát triển và cần khả năng mở rộng nhanh.",
-      img: "/image/anh2.jpg"
+      img: "/public/image/anh2.jpg"
     },
     {
       title: "The Grand Hall",
       capacity: "Sự kiện 30+",
       desc: "Sảnh sự kiện sang trọng, được trang bị đầy đủ âm thanh – ánh sáng cho hội thảo, ra mắt sản phẩm và các buổi gặp gỡ chuyên nghiệp. Không gian tạo ấn tượng mạnh ngay từ khoảnh khắc đầu tiên.",
-      img: "/image/anh3.jpg"
+      img: "/public/image/anh3.jpg"
     }
   ];
 
