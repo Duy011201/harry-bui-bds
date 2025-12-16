@@ -30,7 +30,7 @@ const AboutPhilosophy: React.FC = () => {
             >
               <div className="aspect-[4/5] overflow-hidden relative">
                 <img 
-                  src="/public/image/harrybui.jpeg"
+                  src="/image/harrybui.jpeg"
                   alt="Harry Bùi"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000 ease-out"
                 />

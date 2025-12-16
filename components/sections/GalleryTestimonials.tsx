@@ -17,7 +17,7 @@ const GalleryTestimonials: React.FC = () => {
       price: "Từ $25/m²/tháng",
       amenities: ["View phố đi bộ", "Nội thất da cao cấp", "Sảnh đón Luxury"],
       term: "Tối thiểu 1 năm",
-      image: "/public/image/anh4.jpeg"
+      image: "/image/anh4.jpeg"
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const GalleryTestimonials: React.FC = () => {
       price: "Từ 20 triệu/tháng",
       amenities: ["Không gian xanh", "Phòng họp 24/7", "Pantry miễn phí"],
       term: "Tối thiểu 6 tháng",
-      image: "/public/image/anh5.jpeg"
+      image: "/image/anh5.jpeg"
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const GalleryTestimonials: React.FC = () => {
       price: "Từ $18/m²/tháng",
       amenities: ["Thiết kế Creative", "Hồ bơi sân thượng", "Pet friendly"],
       term: "Tối thiểu 1 năm",
-      image: "/public/image/anh6.jpeg"
+      image: "/image/anh6.jpeg"
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ const GalleryTestimonials: React.FC = () => {
       price: "Liên hệ báo giá",
       amenities: ["View sông Sài Gòn", "An ninh 3 lớp", "Hầm xe thông minh", "Helipad"],
       term: "Tối thiểu 2 năm",
-      image: "/public/image/anh7.jpeg"
+      image: "/image/anh7.jpeg"
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const GalleryTestimonials: React.FC = () => {
       price: "Từ $22/m²/tháng",
       amenities: ["Sân vườn riêng", "Cách âm tuyệt đối", "Yoga Studio"],
       term: "Tối thiểu 1 năm",
-      image: "/public/image/anh8.jpeg"
+      image: "/image/anh8.jpeg"
     },
   ];
 

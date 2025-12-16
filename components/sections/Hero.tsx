@@ -10,6 +10,23 @@ const Hero: React.FC = () => {
   // Unified easing
   const easeConfig: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
+    const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+        e.preventDefault();
+        const targetId = href.replace('#', '');
+        const element = document.getElementById(targetId);
+
+        if (element) {
+            const headerOffset = 100;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+        }
+    };
+
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       {/* Background Media */}
@@ -68,9 +85,14 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-white/5 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
           </button> */}
 
-          <button className="px-8 py-4 bg-gold text-charcoal font-semibold tracking-widest hover:bg-white transition-colors duration-300 flex items-center gap-3">
-            Liên hệ ngay <ArrowRight size={16} />
-          </button>
+            <a
+                href="#booking"
+                onClick={(e) => handleNavClick(e, '#booking')}
+            >
+                <button className="px-8 py-4 bg-gold text-charcoal font-semibold tracking-widest hover:bg-white transition-colors duration-300 flex items-center gap-3">
+                    Liên hệ ngay <ArrowRight size={16} />
+                </button>
+            </a>
         </motion.div>
       </motion.div>
 
