@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                 <MapPin size={18} className="text-gold flex-shrink-0 mt-0.5" />
                 <span>
                   Tầng 6, <br />
-                  Số 35 ngõ 570 Kim Giang, Phường Thanh Liệt, Quận Hoàng Mai, TP Hà Nội
+                  Số 35 Ngõ 570 Kim Giang, Phường Thanh Liệt, Quận Hoàng Mai, TP Hà Nội
                 </span>
               </li>
               <li className="flex items-center gap-3 group cursor-pointer">
