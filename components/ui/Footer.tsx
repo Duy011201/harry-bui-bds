@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3 group cursor-pointer">
                 <Mail size={18} className="text-gold flex-shrink-0 group-hover:text-white transition-colors" />
-                <span className="group-hover:text-gold transition-colors">tiepbuibds@gmail.com</span>
+                <span className="group-hover:text-gold transition-colors">buitiepbds@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={18} className="text-gold flex-shrink-0 mt-0.5" />

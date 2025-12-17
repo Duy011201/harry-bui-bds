@@ -142,7 +142,7 @@ const Booking: React.FC = () => {
                                 </div>
                                 <div className="flex gap-4 items-center">
                                     <div className="w-12 h-[1px] bg-gold"></div>
-                                    <p className="text-sand font-serif text-xl">Email: tiepbuibds@gmail.com</p>
+                                    <p className="text-sand font-serif text-xl">Email: buitiepbds@gmail.com</p>
                                 </div>
                             </div>
                         </div>
