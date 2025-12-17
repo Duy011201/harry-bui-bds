@@ -247,7 +247,7 @@ const Booking: React.FC = () => {
 
                                 {/* Thông báo trạng thái */}
                                 {submitStatus === 'success' && (
-                                    <div className="text-green-500 text-sm text-center">Cảm ơn bạn đã để lại thông!<br/>Chúng tôi sẽ liên hệ với bạn sớm nhất.</div>
+                                    <div className="text-green-500 text-sm text-center">Cảm ơn bạn đã để lại thông tin!<br/>Chúng tôi sẽ liên hệ với bạn sớm nhất.</div>
                                 )}
                                 {submitStatus === 'error' && (
                                     <div className="text-red-500 text-sm text-center">Có lỗi xảy ra, vui lòng thử lại sau.</div>
